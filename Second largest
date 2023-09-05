@@ -1,0 +1,11 @@
+# gfg
+class Solution:
+
+	def print2largest(self,arr, n):
+		# code here
+        s=list(set(arr))
+        s.sort()
+        if len(s)>=2:
+            return s[-2]
+        else:
+            return -1
